@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jam Box Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="container" role="document">
+    <header class="site-header" role="banner">
+      <h1 class="logo">Jam Box Studios</h1>
+      <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#">Studio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" class="main-content" role="main">
+      <section class="welcome">
+        <h2>Welcome to Jam Box</h2>
+        <p>Your one-stop studio for all things music! We provide high-quality recording services and equipment rentals.</p>
+      </section>
+
+      <section class="info-cards">
+        <div class="card owner" aria-labelledby="owner-heading">
+          <h2 id="owner-heading">Meet the Owner</h2>
+          <img src="c:\Users\User\Documents\pictures\53.collection-of-character-mascot-illustrator-tutorial.jpg" alt="Photo of John Doe" class="owner-photo">
+          <ul>
+            <li><strong>Name:</strong> John Doe</li>
+            <li><strong>Title:</strong> CEO</li>
+            <li><strong>Email:</strong> <a href="mailto:johnjoe@jambox.ca">johnjoe@jambox.ca</a></li>
+            <li><strong>Phone:</strong> <a href="tel:6130000000">613-000-0000</a></li>
+          </ul>
+          <h3>Address</h3>
+          <address>
+            Jam Box Studios<br>
+            123 Guitar Road,<br>
+            Musicville, Danceistan<br>
+            B3T 0L0
+          </address>
+        </div>
+
+        <div class="card contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact Us</h2>
+          <form action="thanks.html" aria-label="Contact Form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Subject" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <p>&copy; 2021 Jam Box Studios. All rights reserved.</p>
+      <p>Follow us on <a href="#">Social Media</a></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
+
